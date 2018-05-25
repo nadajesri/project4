@@ -16,3 +16,34 @@ a {
     background-color: #89E9EF;
 	text-align: center;
 }
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+.headerbody {
+	background-color: #E0FFE9;
+	padding: 1em;
+	grid-column-start: 1
+	grid-column-end: span 4;
+}
+.leftsidebar { 
+	background-color: #E0FFE9;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+.rightsidebar { 
+	background-color: #E0FFE9;
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 2;
+	text-align: justify;
+}
+.footerbody{
+	background-color: #E0FFE9;
+	padding: 1em;
+	grid-column-start: 1
+	grid-column-end: span 4;
+}
