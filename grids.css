@@ -13,7 +13,7 @@ li {
 a {
     display: inline;
     padding: 55px;
-    background-color: #89E9EF;
+    background-color: silver;
 	text-align: center;
 }
 .grid {
@@ -26,6 +26,7 @@ a {
 	padding: 1em;
 	grid-column-start: 1
 	grid-column-end: span 4;
+	
 }
 .leftsidebar { 
 	background-color: #E0FFE9;
@@ -46,4 +47,82 @@ a {
 	padding: 1em;
 	grid-column-start: 1
 	grid-column-end: span 4;
+}
+.donuts{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border:2px solid black;
+}
+.doughnuts{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.krispy{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border:2px solid black;
+}
+.menu1{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.menu2{
+	padding: 1em;
+	grid-column-start:2;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.menu3{
+	padding: 1em;
+	grid-column-start: 3;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.menu4{
+	padding: 1em;
+	grid-column-start:4;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.data{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border:2px solid black;
+}
+.graph1{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.graph2{
+	padding: 1em;
+	grid-column-start:2;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.dunkin{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border:2px solid black;
+}
+.frosted1{
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border:2px doubled black;
+}
+.frosted2{
+	padding: 1em;
+	grid-column-start:2;
+	grid-column-end: span 1;
+	border:2px doubled black;
 }

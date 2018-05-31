@@ -16,16 +16,21 @@ h1 {
 body {
 	font-family: Papyrus;
 	font-size: 45px;
-	color: #E0FFE9;
+	color: #FFFFFF;
 	font-weight: bold;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=84409), auto;
 }
 a {
-	color: #000000;
+	color: black;
 	font-weight: lighter;
+	border-style: double;
+	border-color: black;
 }
 p { 
 	color: #000000;
-	font-weight: lighter;
+	font-weight: bold;
 	cursor: url(http://www.rw-designer.com/cursor-extern.php?id=84409), auto;
+	border-style: double;
+	border-color: black;
+	font-size: 50px;
 }
