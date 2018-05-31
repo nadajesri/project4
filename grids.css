@@ -126,3 +126,9 @@ a {
 	grid-column-end: span 1;
 	border:2px doubled black;
 }
+.oven{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+	border:2px solid black;
+}
